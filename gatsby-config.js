@@ -13,6 +13,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "paul-blog",
+        protocol: "https",
+        hostname: "paul-blog.s3-website-us-east-1.amazonaws.com",
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
