@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `My blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Paul Haddad`,
+      summary: `software engineer learning the ins and outs of computer science`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `A blog to document my journey through Bradfield CSI`,
+    siteUrl: `https://paulghaddad.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `paulghaddad`,
     },
   },
   plugins: [
@@ -61,7 +61,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        head: true,
+        trackingId: `G-H5VCBBMR7M`,
       },
     },
     `gatsby-plugin-feed`,
