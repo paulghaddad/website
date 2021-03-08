@@ -7,7 +7,7 @@ description: The start of my journey through Bradfield CSI, a little about me an
 # Why This Blog?
 
 The aim of this blog is to share my experience and key learnings from
-Bradfield's i[Computer Science Intensive (CSI)
+Bradfield's [Computer Science Intensive (CSI)
 program](https://bradfieldcs.com/csi/). I hope pulling back the
 covers is helpful to future students of CSI, as well as to anyone with an
 interest in learning computer science.
