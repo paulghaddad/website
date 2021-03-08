@@ -3,7 +3,7 @@ module.exports = {
     title: `My blog`,
     author: {
       name: `Paul Haddad`,
-      summary: `software engineer learning the ins and outs of computer science`,
+      summary: `, a software engineer learning the ins and outs of computer science.`,
     },
     description: `A blog to document my journey through Bradfield CSI`,
     siteUrl: `https://paulghaddad.com/`,
